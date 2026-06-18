@@ -9,8 +9,10 @@ embeddings.npy
 spam_model.keras
 
 # Generated Plots & Web Assets
-umap_plot.html
 www/
+
+# OS files
+.DS_Store
 
 # Python Cache
 __pycache__/

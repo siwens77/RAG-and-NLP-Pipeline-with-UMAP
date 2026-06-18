@@ -77,7 +77,10 @@ def umap_display(embeddings, hover_text, category_labels, color_label='Category'
         hover_data=["index"],
     )
     
-    fig.write_html("umap_plot.html")
+    import os
+    if not os.path.exists("visualization"):
+        os.makedirs("visualization")
+    fig.write_html("visualization/umap_plot.html")
     fig.show()
     return mapped_categories
     
