@@ -1,0 +1,22 @@
+.venv/
+.env
+
+# Generated Data & Embeddings
+output_file.xlsx
+embeddings.npy
+
+# Machine Learning Models
+spam_model.keras
+
+# Generated Plots & Web Assets
+umap_plot.html
+www/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# R Cache
+.Rhistory
+.RData
+.Ruserdata
